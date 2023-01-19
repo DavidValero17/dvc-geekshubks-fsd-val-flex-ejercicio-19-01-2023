@@ -1,5 +1,4 @@
 body {
-    background-color: aqua;
     margin: 0;
 }
 
@@ -21,6 +20,7 @@ body {
 
 #footer {
     height: 10vh;
+    background-color: rgba(128, 128, 128, 0.1);
 }
 
 #izq {
@@ -41,18 +41,23 @@ body {
 }
 
 #imagen {
-    height: 35vh;
-    
+    height: 35vh;    
 }
 
 #busqueda {
     height: 10vh;
-    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
 }
 
 #links {
     height: 35vh;
-    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 
 }
 
@@ -64,4 +69,34 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
+
+#bottom1 {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+#bottom2 {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    justify-content: space-between;
+}
+
+.bottom {
+    display: flex;
+    gap: 30px;    
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
+
+#emision {
+    justify-content: center;
+}
+
