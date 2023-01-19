@@ -19,7 +19,7 @@ body {
 }
 
 #footer {
-    height: 10vh;
+    height: 13vh;
     background-color: rgba(128, 128, 128, 0.1);
 }
 
@@ -100,3 +100,6 @@ a {
     justify-content: center;
 }
 
+hr {
+    color: rgba(128, 128, 128, 0.126);
+}
